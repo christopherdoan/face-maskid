@@ -4,6 +4,9 @@ from matplotlib.patches import Rectangle
 from matplotlib.patches import Circle
 from mtcnn.mtcnn import MTCNN
 
+""" Implementation of tutorial provided by MachineLearningMastery article written by Jason Brownlee: 
+https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/"""
+
 # draw an image with detected objects
 def draw_image_with_boxes(filename, result_list):
 	# load the image
