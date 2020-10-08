@@ -13,7 +13,7 @@ https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-
 #load the pretrained model 
 clf = CascadeClassifier('haarcascade_frontalface_default.xml')
 
-pixels = imread("test1.jpg")
+pixels = imread("../images/test1.jpg")
 
 #create bounding boxes around face
 bounding_boxes = clf.detectMultiScale(pixels)
